@@ -9,26 +9,6 @@ import TheHeader from './components/nav/TheHeader.vue';
 export default {
   components: {
     TheHeader
-  },
-  data() {
-    return {
-      isLoggedIn: false
-    };
-  },
-  // provide() {
-  //   return {
-  //     isLoggedIn: this.isLoggedIn,
-  //     login: this.login,
-  //     logout: this.logout
-  //   };
-  // },
-  methods: {
-    login() {
-      this.isLoggedIn = true;
-    },
-    logout() {
-      this.isLoggedIn = false;
-    }
   }
 };
 </script>

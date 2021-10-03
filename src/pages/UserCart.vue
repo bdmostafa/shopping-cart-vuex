@@ -22,7 +22,6 @@
 import CartItem from '../components/cart/CartItem.vue';
 
 export default {
-  // inject: ['cart'],
   components: {
     CartItem
   },

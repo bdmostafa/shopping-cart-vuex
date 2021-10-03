@@ -23,7 +23,6 @@
 
 <script>
 export default {
-  // inject: ['removeProductFromCart'],
   props: ['prodId', 'title', 'image', 'price', 'qty'],
   computed: {
     itemTotal() {
